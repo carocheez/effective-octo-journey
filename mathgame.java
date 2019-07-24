@@ -1,8 +1,4 @@
-//hello im not sure what im doing...
-/* 
-ideas: 
-- uno
-*/
+
 import java.util.*;
 import java.util.Random; 
 
