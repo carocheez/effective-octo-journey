@@ -1,2 +1,1 @@
-# effective-octo-journey
-i dont even know what i wanna code yet ...
+this is a math game!
