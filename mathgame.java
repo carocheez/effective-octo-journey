@@ -14,9 +14,11 @@ class Main {
     Scanner in = new Scanner(System.in); 
     boolean isRunning = true;
     
-    System.out.println("Which math skills would you like to exercise today? Type 0 for addition  Type 1 for subtraction Type 2 for multiplication Type 3 for division");
+    System.out.println("Which math skills would you like to exercise today? 
+                       Type 0 for addition  Type 1 for subtraction Type 2 for multiplication Type 3 for division");
 
     int operation = in.nextInt(); 
+                       
     while (isRunning) {
       System.out.println(generateProblem(operation));
       int num = in.nextInt();
@@ -40,7 +42,9 @@ class Main {
         System.out.println("Wrong! Try Again!"); 
       }
       System.out.println("Would you like to continue? Type 1 or 0");
+      
       int replay = in.nextInt();
+
       if (replay == 0) {
         isRunning = false;
       }
