@@ -47,7 +47,7 @@ class Main {
     }
   }
 
-  public static String generateProblem(int x   ){
+  public static String generateProblem(int x){
     a = (int)(Math.random() * 9) + 1;
     /**
     Math.random() generates number between
